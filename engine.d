@@ -1,0 +1,13 @@
+.\engine.o: Engine.c
+.\engine.o: X:\Software\_Engineering\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\engine.o: ../inc/tm4c123gh6pm.h
+.\engine.o: ST7735.h
+.\engine.o: Random.h
+.\engine.o: PLL.h
+.\engine.o: ADC.h
+.\engine.o: Timer0.h
+.\engine.o: Timer1.h
+.\engine.o: background.h
+.\engine.o: IO.h
+.\engine.o: Sound.h
+.\engine.o: Sprites.h

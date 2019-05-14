@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Adithya Ashok, UT Austin, LIC=Q7GII-CKV9W-7CDSX-0IWCD-3FT8E-5CIH8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.26.2.0
+Toolchain Path:  X:\Software\_Engineering\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+X:\Software\_Engineering\Keil\EE319KwareSpring2019\___FINAL GAME\SpaceInvaders.uvprojx
+Project File Date:  05/05/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'X:\Software\_Engineering\Keil\ARM\ARMCC\Bin'
+Rebuild target 'SpaceInvaders'
+assembling startup.s...
+assembling random.s...
+assembling Print.s...
+assembling LCD.s...
+compiling background.c...
+compiling Timer1.c...
+compiling DAC.c...
+compiling Timer0.c...
+compiling PLL.c...
+compiling ADC.c...
+compiling Sound.c...
+Sound.c(398): warning:  #223-D: function "DAC_Init" declared implicitly
+    DAC_Init();
+Sound.c(422): warning:  #223-D: function "DAC_Out" declared implicitly
+    DAC_Out(ptr[Index]/4);
+Sound.c: 2 warnings, 0 errors
+compiling SpaceInvaders.c...
+SpaceInvaders.c(106): warning:  #223-D: function "DAC_Init" declared implicitly
+  	DAC_Init();
+SpaceInvaders.c(112): warning:  #223-D: function "intro" declared implicitly
+  	intro();
+SpaceInvaders.c: 2 warnings, 0 errors
+compiling ST7735.c...
+compiling animations.c...
+animations.c(31): warning:  #223-D: function "Delay100ms" declared implicitly
+  	Delay100ms(10); 
+animations.c(77): warning:  #223-D: function "retY" declared implicitly
+    int i = retY();
+animations.c(89): warning:  #223-D: function "Delay10ms" declared implicitly
+  			Delay10ms(100);
+animations.c(92): warning:  #223-D: function "Delay10ms" declared implicitly
+      Delay10ms(4);
+animations.c: 4 warnings, 0 errors
+compiling Images.c...
+compiling IO.c...
+IO.c(39): warning:  #223-D: function "Delay1ms" declared implicitly
+  	Delay1ms(20);								
+IO.c: 1 warning, 0 errors
+compiling Engine.c...
+linking...
+Program Size: Code=5392 RO-data=246552 RW-data=140 ZI-data=1244  
+".\SpaceInvaders.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_SpaceInvaders
+  X:\Software\_Engineering\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  X:\Software\_Engineering\Keil\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
